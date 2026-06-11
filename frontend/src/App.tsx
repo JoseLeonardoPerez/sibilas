@@ -7,7 +7,7 @@ import Daily from "./pages/Daily";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/sibilas">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/natal" element={<Natal />} />

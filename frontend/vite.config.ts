@@ -4,6 +4,8 @@ import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
 
+  base: "/sibilas/",
+
   plugins: [
 
     react(),
@@ -29,42 +31,42 @@ export default defineConfig({
 
         orientation: "portrait",
 
-        start_url: "/",
+        start_url: "/sibilas/",
 
         icons: [
 
           {
-            src: "/icon-96.png",
+            src: "/sibilas/icon-96.png",
             sizes: "96x96",
             type: "image/png"
           },
 
           {
-            src: "/icon-128.png",
+            src: "/sibilas/icon-128.png",
             sizes: "128x128",
             type: "image/png"
           },
 
           {
-            src: "/icon-152.png",
+            src: "/sibilas/icon-152.png",
             sizes: "152x152",
             type: "image/png"
           },
 
           {
-            src: "/icon-180.png",
+            src: "/sibilas/icon-180.png",
             sizes: "180x180",
             type: "image/png"
           },
 
           {
-            src: "/icon-192.png",
+            src: "/sibilas/icon-192.png",
             sizes: "192x192",
             type: "image/png"
           },
 
           {
-            src: "/icon-512.png",
+            src: "/sibilas/icon-512.png",
             sizes: "512x512",
             type: "image/png"
           }
